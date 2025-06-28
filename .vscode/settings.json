@@ -1,0 +1,32 @@
+{
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "importShortcut": "Definition",
+        "formatting.gofumpt": true,
+        "ui.semanticTokens": true,
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.defaultFormatter": "golang.go",
+    },
+    "go.addTags": {
+        "transform": "camelcase"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.language": "en,es",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "cSpell.words": [],
+}
